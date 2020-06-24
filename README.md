@@ -1,6 +1,5 @@
 ## Leaflet Challenge 
  
- 
 ### Used the following Mapbox styles
 
 - mapbox://styles/mapbox/streets-v11
@@ -16,7 +15,7 @@ https://docs.mapbox.com/api/maps/
 ```sh
 yarn install  --> install npm packages
 yarn start    --> run development server
-yarn build    --> build produnction image
+yarn build    --> build production image
 ```
 
 ![Screenshot](screen_shot.png)

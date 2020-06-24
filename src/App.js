@@ -51,7 +51,7 @@ function App() {
       {!earthquakes ?
         null
         :
-        <Map center={[51, 0]} zoom={2} ref={map}>
+        <Map center={[0, 0]} zoom={2.5} ref={map}>
           <LayersControl position='topright' collapsed={false}>
             {mapTypes.map((mapType, index) =>
               <BaseLayer key={index} name={mapType.name} checked={mapType.checked}>
